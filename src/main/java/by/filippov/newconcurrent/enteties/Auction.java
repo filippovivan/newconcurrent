@@ -75,4 +75,8 @@ public class Auction extends Thread {
 		return director;
 	}
 
+	public SellingState getSellingState() {
+		return state;
+	}
+
 }

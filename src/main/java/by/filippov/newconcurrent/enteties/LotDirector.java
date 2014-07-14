@@ -12,7 +12,11 @@ public class LotDirector extends Thread {
 		persons = new ArrayList<>();
 		this.lot = lot;
 	}
-
+	@Override
+	public void run() {
+		while ()
+	}
+	
 	public boolean registerPerson(Person person) {
 		if (!registrationEnd) {
 			return persons.add(person);
